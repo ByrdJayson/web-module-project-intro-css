@@ -49,7 +49,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 /* GENERAL STYLES */
@@ -70,9 +70,7 @@ h1 {
     font-size: 5rem;
 }
 
-h2 {
-    
-}
+
 
 a {
     font-family: 'Roboto Mono' monospace;
@@ -87,9 +85,7 @@ section {
     padding: 4% 0;
 }
 
-p {
 
-}
 
 /* HEADER SECTION STYLES */
 
@@ -160,11 +156,6 @@ span {
     font-weight: bold;
 }
 
-footer img {
-    height: 30rem;
-    width: 100%;
-    padding-bottom: 0;
-}
 
 .mid-section {
     width: 87%;
@@ -198,4 +189,16 @@ section.bottom-section {
     text-align: center;
     margin: 0 auto;
     padding-top: 5rem;
+}
+
+.footer-img {
+    background-image: url('/assets/footer_img.jpg');
+    width: 100%;
+    padding-top: 15%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer nav {
+    background-color: #F9E7DD;
 }
