@@ -184,5 +184,18 @@ footer img {
 img.mid {
     margin: 0 auto;
     text-align: center;
-    height: 5em;
+    height: 15rem;
+    padding-top: 2rem;
+}
+
+section.bottom-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-section p {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
 }
